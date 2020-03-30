@@ -57,7 +57,7 @@ body {
 
 .score {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(1, 1fr);
     font-size: 1.2rem;
     color: #ffffff;
 }
@@ -84,6 +84,12 @@ body {
 
 .choice:hover {
     color: var(--primary-color);
+    margin:20px;
+    padding: 3px;
+    float:left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.2s ease-out;
       }
 
 
