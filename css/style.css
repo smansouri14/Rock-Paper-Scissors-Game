@@ -17,7 +17,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background: #ffffff;
+    background: #F0F8FF;
     color: #333333;
 }
 
@@ -31,8 +31,8 @@ body {
 
 .restart-btn{
     display: none;
-    background: var(--light-color);
-    color: #333333;
+    background: var(--dark-color);
+    color: var(--light-color);
     padding: 0.4rem 1.3rem;
     font-size: 1rem;
     cursor: pointer;
@@ -57,7 +57,7 @@ body {
 
 .score {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     font-size: 1.2rem;
     color: #ffffff;
 }
@@ -84,7 +84,14 @@ body {
 
 .choice:hover {
     color: var(--primary-color);
-}
+    margin:20px;
+    padding: 3px;
+    float:left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.2s ease-out;
+      }
+
 
 .text-win {
     color: var(--win-color);
