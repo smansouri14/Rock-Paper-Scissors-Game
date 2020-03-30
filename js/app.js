@@ -84,8 +84,8 @@ function showWinner(winner, computerChoice) {
     }
     // show Score
     score.innerHTML = `
-    <p>Player ${scoreboard.player}  : 
-    ${scoreboard.computer} Computer</p>
+    <p>Player: ${scoreboard.player}</p>  
+    <p>Computer: ${scoreboard.computer}</p>
     `;
 
     modal.style.display = 'block';
